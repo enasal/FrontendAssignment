@@ -20,7 +20,6 @@ public class validateSubscription {
 	@BeforeClass
 	public void openBrowser()
 	{
-	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 	driver= new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	driver.manage().window().maximize();

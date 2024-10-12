@@ -6,7 +6,6 @@
       <class name="test.validateSubscription">
         <methods>
           <include name="validateSubscriptionDetails"/>
-          <include name="postSignUp"/>
           <include name="afterClass"/>
           <include name="openBrowser"/>
         </methods>
