@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-12T12:22:44 EET" name="Default suite" finished-at="2024-10-12T12:25:15 EET" duration-ms="151354">
+    <groups>
+    </groups>
+    <test started-at="2024-10-12T12:22:44 EET" name="Default test" finished-at="2024-10-12T12:25:15 EET" duration-ms="151354">
+      <class name="test.validateSubscription">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.validateSubscription@2f112965]" started-at="2024-10-12T12:22:44 EET" name="openBrowser" finished-at="2024-10-12T12:23:19 EET" duration-ms="34917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateSubscriptionDetails()[pri:0, instance:test.validateSubscription@2f112965]" started-at="2024-10-12T12:23:19 EET" name="validateSubscriptionDetails" description="validate subscription type, price and currency for each available countries" finished-at="2024-10-12T12:25:15 EET" duration-ms="116289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubscriptionDetails -->
+        <test-method is-config="true" signature="postSignUp()[pri:0, instance:test.validateSubscription@2f112965]" started-at="2024-10-12T12:25:15 EET" name="postSignUp" finished-at="2024-10-12T12:25:15 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSignUp -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.validateSubscription@2f112965]" started-at="2024-10-12T12:25:15 EET" name="afterClass" finished-at="2024-10-12T12:25:15 EET" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.validateSubscription -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
